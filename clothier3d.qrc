@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>images/activate.png</file>
+        <file>images/princess.ico</file>
+        <file>images/selfie.png</file>
+        <file>images/splash.png</file>
+    </qresource>
+</RCC>

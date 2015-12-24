@@ -1,12 +1,10 @@
-# 3DPatternMaker
+# Clothier3D
 Create 3D clothes for 3D figures using patterns.
 
 # Technical
- *.NET 3.5
- *Open GL 4 using OpenTK
- *BulletSharp Library
+* DevIL for texture loading - http://devil.sf.net/  
+* Assimp for loading/saving meshes - http://assimp.sf.net/  
+* Bullet for cloth physics - http://www.bulletphysics.org/wordpress/  
  
-# Tools Needed:
- *OpenTK Library
- *Visual Studio 2008 or better
- *BulletSharp Library
+# Compiling
+You need the Qt5 framework - http://www.qt.io/download-open-source/
