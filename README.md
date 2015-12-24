@@ -2,7 +2,7 @@
 Create 3D clothes for 3D figures using patterns.
 
 # Technical
-* DevIL for texture loading - http://devil.sf.net/  
+* DevIL for texture loading - http://openil.sf.net/  
 * Assimp for loading/saving meshes - http://assimp.sf.net/  
 * Bullet for cloth physics - http://www.bulletphysics.org/wordpress/  
  
