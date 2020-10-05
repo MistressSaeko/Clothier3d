@@ -172,7 +172,7 @@ UpgradeLog*.htm
 
 # Microsoft Fakes
 FakesAssemblies/
-.vs/CharacterStudio/v16/Server/sqlite3/db.lock
-.vs/CharacterStudio/v16/Server/sqlite3/storage.ide
-.vs/CharacterStudio/v16/Server/sqlite3/storage.ide-shm
-.vs/CharacterStudio/v16/Server/sqlite3/storage.ide-wal
+.vs/Clothier3D/v16/Server/sqlite3/db.lock
+.vs/Clothier3D/v16/Server/sqlite3/storage.ide
+.vs/Clothier3D/v16/Server/sqlite3/storage.ide-shm
+.vs/Clothier3D/v16/Server/sqlite3/storage.ide-wal
