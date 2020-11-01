@@ -51,13 +51,13 @@
             this.SceneView = new OpenTK.GLControl();
             this.PatternView = new OpenTK.GLControl();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.StopStartSimButton = new System.Windows.Forms.ToolStripButton();
             this.toolStrip2 = new System.Windows.Forms.ToolStrip();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.LibraryTab = new System.Windows.Forms.TabPage();
             this.BlocksTab = new System.Windows.Forms.TabPage();
             this.PropertyEditor = new System.Windows.Forms.PropertyGrid();
             this.ItemList = new System.Windows.Forms.TreeView();
-            this.StopStartSimButton = new System.Windows.Forms.ToolStripButton();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -183,7 +183,7 @@
             | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
             this.toolStripStatusLabel1.BorderStyle = System.Windows.Forms.Border3DStyle.SunkenOuter;
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(523, 19);
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(508, 19);
             this.toolStripStatusLabel1.Spring = true;
             this.toolStripStatusLabel1.Text = "toolStripStatusLabel1";
             this.toolStripStatusLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -195,7 +195,7 @@
             | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
             this.toolStripStatusLabel2.BorderStyle = System.Windows.Forms.Border3DStyle.SunkenOuter;
             this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
-            this.toolStripStatusLabel2.Size = new System.Drawing.Size(523, 19);
+            this.toolStripStatusLabel2.Size = new System.Drawing.Size(508, 19);
             this.toolStripStatusLabel2.Spring = true;
             this.toolStripStatusLabel2.Text = "toolStripStatusLabel2";
             this.toolStripStatusLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -272,6 +272,17 @@
             this.toolStrip1.TabIndex = 2;
             this.toolStrip1.Text = "toolStrip1";
             // 
+            // StopStartSimButton
+            // 
+            this.StopStartSimButton.CheckOnClick = true;
+            this.StopStartSimButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.StopStartSimButton.Image = ((System.Drawing.Image)(resources.GetObject("StopStartSimButton.Image")));
+            this.StopStartSimButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.StopStartSimButton.Name = "StopStartSimButton";
+            this.StopStartSimButton.Size = new System.Drawing.Size(23, 22);
+            this.StopStartSimButton.Text = "StartStopSimButton";
+            this.StopStartSimButton.ToolTipText = "Start/Stop Simulation";
+            // 
             // toolStrip2
             // 
             this.toolStrip2.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
@@ -331,17 +342,6 @@
             this.tableLayoutPanel1.SetRowSpan(this.ItemList, 2);
             this.ItemList.Size = new System.Drawing.Size(255, 267);
             this.ItemList.TabIndex = 6;
-            // 
-            // StopStartSimButton
-            // 
-            this.StopStartSimButton.CheckOnClick = true;
-            this.StopStartSimButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.StopStartSimButton.Image = ((System.Drawing.Image)(resources.GetObject("StopStartSimButton.Image")));
-            this.StopStartSimButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.StopStartSimButton.Name = "StopStartSimButton";
-            this.StopStartSimButton.Size = new System.Drawing.Size(23, 22);
-            this.StopStartSimButton.Text = "StartStopSimButton";
-            this.StopStartSimButton.ToolTipText = "Start/Stop Simulation";
             // 
             // MainForm
             // 

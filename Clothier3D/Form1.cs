@@ -63,7 +63,7 @@ namespace Clothier3D
 
             IsLoaded = true;
 
-            SceneView.Invalidate();
+            PatternView.Invalidate();
         }
 
         private void PatternView_Resize(object sender, EventArgs e)
@@ -73,7 +73,7 @@ namespace Clothier3D
 
             GL.Viewport(0, 0, PatternView.Width, PatternView.Height);
 
-            SceneView.Invalidate();
+            PatternView.Invalidate();
         }
 
         private void PatternView_Paint(object sender, PaintEventArgs e)
@@ -83,7 +83,7 @@ namespace Clothier3D
 
             GL.Clear(ClearBufferMask.ColorBufferBit | ClearBufferMask.DepthBufferBit);
 
-            SceneView.SwapBuffers();
+            PatternView.SwapBuffers();
         }
     }
 }
